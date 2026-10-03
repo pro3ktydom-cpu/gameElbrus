@@ -1,0 +1,37 @@
+{
+  "title": "Дима и Гена: На Эльбрус!",
+  "artWorkflow": "Built-in ImageGen; reference-based generation followed by cartoon style refinement",
+  "references": [
+    {
+      "file": "Гена.jpg",
+      "role": "Gena face and build, top-right and bottom-right"
+    },
+    {
+      "file": "Дима.jpg",
+      "role": "Dima face, glasses and build, top-left and bottom-left"
+    }
+  ],
+  "prompts": [
+    "Use case: stylized-concept. Asset type: transparent 2D game character atlas for the side-scrolling platformer 'Дима и Гена: На Эльбрус!'. Input image 1 is GENA identity reference; image 2 is DIMA identity reference. Create ONE transparent PNG atlas, a precise 2 by 2 grid with FOUR separate full-body 3D cartoon game character cutouts, each centered within its own equal quadrant, separated by wide empty transparent space. Top-left DIMA in orange hiking jacket, navy trousers, boots and blue backpack, dark baseball cap and clear rectangular eyeglasses exactly like photo 2, preserve his face shape, nose, age and build, dark short hair, subtle moustache. Top-right GENA in turquoise hiking jacket, navy trousers, boots and ochre backpack, short light brown side-parted hair, clean shaven, no glasses, recognizably like photo 1. Bottom-left SAME DIMA in same orange jacket now insulated, navy winter beanie, gloves, small rope and crampons, eyeglasses remain. Bottom-right SAME GENA in same turquoise jacket with mustard winter beanie, gloves, climbing harness. All characters fully visible including boots with no cropping, slightly oversized heads, friendly expressive faces, soft polished dimensional cartoon rendering, subtle self shading, bodies in relaxed standing pose facing three-quarter toward the right with faces visible. CONSISTENT identical face identity top and bottom. Each figure occupies at most 70% of its quadrant width and 86% height. No ground, no backdrop, no scenery, no labels, no text, no layout lines, no cast shadows outside feet. Genuine alpha transparent background. High-quality clean edges. Do not swap the identities: Gena is the man without glasses from first photo, Dima is the man with glasses and cap from second.",
+    "Edit this atlas. Keep the EXACT four identities, positions, orange versus teal jackets, glasses, dark cap, winter hats, backpacks and 2-by-2 equal grid layout. Make a DRAMATIC style transformation: these must be unmistakably ANIMATED CARTOON GAME CHARACTERS, not realistic people. Each character has a VERY LARGE HEAD (one third of the total character height), small compact body, stubby legs, huge expressive eyes, charming caricature face, simplified sculpted hair. Hand-painted soft-shaded colorful 3D toy animation aesthetic. Preserve recognizable facial likeness of both friends. Dima on left retains glasses, moustache, dark cap top and navy beanie bottom. Gena right retains no glasses, light brown short hair top and mustard hat bottom. Reduce fine wrinkles and fabric photorealism. Standing full body, boots completely visible. IMPORTANT: REMOVE ALL BACKGROUND PIXELS including dark hazy gradients and dark shadows! EVERYTHING outside the four characters must be alpha zero transparent empty space. Four isolated cutouts centered in the four equal quadrants with generous empty transparent margin around all edges and clear empty space between them. No surface, ground or cast shadow. No text, frames or props outside each silhouette. Portrait atlas same format."
+  ],
+  "asset": "heroes.png",
+  "grid": {
+    "columns": 2,
+    "rows": 2,
+    "width": 1024,
+    "height": 1536
+  },
+  "normalization": "Lossless PNG container repack; decoded RGBA samples verified identical to the selected generated image.",
+  "environmentArt": "Original procedural Canvas vector scenery",
+  "audio": "Original browser-synthesized melody, ambience and effects",
+  "rights": "Character likeness references supplied by the user for this game; generated and procedural art produced for this request. No third-party downloaded art, music or fonts.",
+  "validation": {
+    "syntax": "Node --check passed",
+    "physics": "All required platform transitions tested with the game fixed-step physics",
+    "progression": "All five stage task lists, bridge gates, summit plates and photo collection passed",
+    "render": "All five scenes and title rendered and visually reviewed",
+    "browser": "No full manual browser playthrough in this environment"
+  },
+  "created": "2026-10-03"
+}
